@@ -164,7 +164,7 @@ Syntax and usage example:
 `python3.8 LiTOY.py --db database.json --review
     * Begin `n_session` sessions where LiTOY automatically picks `n_to_review` entries and review them (it's actually twice the amount of reviews that you have to do because you have 2 questions each time).
 
-`python3.8 LiTOY.py --db database.json --import-from-file file.txt`
+`python3.8 LiTOY.py --db database.json --import_from_file file.txt`
     * Automatically import from the file. Each line becomes an entry. Except if it is already part of the database. Lines beginning with `#` are ignored. Metadata will be automatically retrieved so be patient.
     * To see example of the syntax for the import file, read [this file](./example_new_entry.txt)
 
